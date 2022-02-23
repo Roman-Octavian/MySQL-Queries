@@ -190,27 +190,3 @@ FROM tbook
 INNER JOIN tauthorship USING (nBookID)
 GROUP BY cTitle
 HAVING COUNT(*) > 1;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
